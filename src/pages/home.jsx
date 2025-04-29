@@ -87,7 +87,7 @@ const newCourses = [
     date: "10-May",
     level: "Advanced",
     teacher: {
-      name: "Laziza Tolibjonova",
+      name: "Marjona Sodiqova",
       role: "Certified IELTS Trainer",
       image: teacher2,
     },

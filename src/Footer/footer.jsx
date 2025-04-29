@@ -58,7 +58,7 @@ const Footer = () => {
           <ul className="space-y-2 text-sm text-gray-300">
             <li>Email: <a href="#">info@youngadults.uz</a></li>
             <li>Tel: <a href="#"> +998 90 123 45 67</a></li>
-            <li>Manzil: Toshkent, Uzbekistan</li>
+            <li>Manzil: Surkhandarya, Uzbekistan</li>
           </ul>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Footer = () => {
           <a href="#"><FaLinkedin className="hover:text-blue-400 cursor-pointer" /></a>
           <a href="#"><FaDiscord className="hover:text-indigo-400 cursor-pointer" /></a>
           <a href="#"><FaFacebook className="hover:text-blue-600 cursor-pointer" /></a>
-          <a href="#"><FaInstagram className="hover:text-pink-500 cursor-pointer" /></a>
+          <a href="https://www.instagram.com/youngadultsstudy/"><FaInstagram className="hover:text-pink-500 cursor-pointer" /></a>
         </div>
         <p className="text-xs text-gray-400 text-center md:text-right">
           © {new Date().getFullYear()} Young Adults. Barcha huquqlar himoyalangan.

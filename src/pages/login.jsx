@@ -23,7 +23,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA8jrW2QeNLzlJX9fwcmkyR2KG47nOysFQ`, // FIREBASE_API_KEY ni almashtir
+        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA8jrW2QeNLzlJX9fwcmkyR2KG47nOysFQ`,
         {
           email,
           password,
@@ -60,7 +60,7 @@ const Login = () => {
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
   
-      const token = await user.getIdToken(); // Bitta marta chaqiramiz.
+      const token = await user.getIdToken(); 
   
       const userInfo = {
         email: user.email,
