@@ -45,7 +45,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-yellow-300 mb-3">Foydali Bo'limlar</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="/about">Biz haqimizda</a></li>
+            <li><a href="/info">Biz haqimizda</a></li>
             <li><a href="#">O'qituvchilar</a></li>
             <li><a href="#">Kurslar narxlari</a></li>
             <li><a href="#">Yangi yangiliklar</a></li>
