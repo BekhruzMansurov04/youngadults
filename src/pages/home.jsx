@@ -127,12 +127,6 @@ const Home = () => {
           Master your future with our top-tier <strong>IT</strong> and <strong>English</strong> lessons. Join a vibrant community of learners and take your skills to the next level!
         </p>
         <div className="flex justify-center mb-12">
-          <button
-            onClick={() => navigate("/register")}
-            className="bg-orange-500 hover:bg-blue-900 text-white font-semibold px-6 py-3 rounded-full transition"
-          >
-            Ro'yxatdan o'tish
-          </button>
         </div>
         <SectionDivider title="YANGI KURSLAR" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-20">
