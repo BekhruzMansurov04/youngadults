@@ -16,7 +16,7 @@ const Header = () => {
 
   const navItems = [
     { label: "Bosh sahifa", path: "/" },
-    { label: "Biz haqimizda", path: "/About" },
+    { label: "Biz haqimizda", path: "/about" },
     { label: "Konsalting", path: "/consulting" },
     { label: "Kurslar", path: "/courses" },
     { label: "Blog", path: "/Blog" },
