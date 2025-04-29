@@ -7,7 +7,7 @@ import Footer from "./Footer/footer";
 import Consulting from './components/Consulting';
 import Dashboard from './components/dashboard';
 import Profile from './pages/profile';
-import About from './components/about';
+import About from '../components/About';
 import Blog from './components/Blog';
 import Contacts from './components/Contacts';
 import Courses from './components/Courses';
@@ -23,7 +23,7 @@ function App() {
         <Route path="/consulting" element={<Consulting />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/About" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/courses" element={<Courses />} />
